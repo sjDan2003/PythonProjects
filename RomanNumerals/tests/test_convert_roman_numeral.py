@@ -3,7 +3,7 @@ from main import (convert_roman_numeral_string_to_decimal,
                   convert_roman_numeral_to_decimal)
 
 
-class roman_numeral_test_class(unittest.TestCase):
+class RomanNumeralTestClass(unittest.TestCase):
 
     def test_convert_I_to_1(self):
 
