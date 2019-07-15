@@ -40,11 +40,13 @@ def convert_roman_numeral_string_to_decimal(roman_numeral_string):
 
             if previous_converted_value > converted_roman_numeral:
 
-                converted_return_value = converted_return_value - converted_roman_numeral
+                converted_return_value = converted_return_value - \
+                                         converted_roman_numeral
 
             else:
 
-                converted_return_value = converted_return_value + converted_roman_numeral
+                converted_return_value = converted_return_value + \
+                                         converted_roman_numeral
 
             previous_converted_value = converted_roman_numeral
 

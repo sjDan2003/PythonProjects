@@ -249,8 +249,9 @@ def get_filename_from_user():
 def main():
 
     filename = get_filename_from_user()
+    READ_ONLY_MODE = 'r'
 
-    with open(filename, 'r') as input_file:
+    with open(filename, READ_ONLY_MODE) as input_file:
 
         for poker_hand in input_file:
             user_hand = PokerHand(poker_hand.strip())
